@@ -1,0 +1,20 @@
+.unit-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.unit-title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.unit {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.unit:hover {
+    opacity: 0.8;
+}
